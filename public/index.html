@@ -9,7 +9,7 @@
   </head>
 
   <script>
-    fetch("/api/data")
+    fetch("/endpoint")
       .then((res) => res.json())
       .then((data) => {
         document.getElementById("apiData").textContent = data.message;
