@@ -19,7 +19,11 @@
   },
   "homepage": "https://github.com/soumyakarwa/deploying-backend-code#readme",
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.3",
+    "dotenv": "^16.4.7",
     "express": "^5.1.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "restler": "^3.4.0",
+    "tailwindcss": "^4.1.3"
   }
 }
