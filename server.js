@@ -1,13 +1,10 @@
 require("dotenv").config();
 const express = require("express");
-const path = require("path");
 const app = express();
 const rest = require("restler");
 const port = process.env.PORT || 3000;
 
 app.use(express.static("public"));
-
-console.log(process.env.API_KEY);
 
 // Find all of the objects with the word "dog" in the title and return only a few fields per record
 rest
